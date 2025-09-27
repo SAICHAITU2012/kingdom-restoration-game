@@ -23,7 +23,7 @@ export const ReverseRunnerChallenge: React.FC<ReverseRunnerChallengeProps> = ({
   const [gameSpeed, setGameSpeed] = useState(1000);
 
   const trackWidth = 10;
-  const targetDistance = 100;
+  const targetDistance = 10;
 
   const generateObstacles = useCallback(() => {
     const newObstacles: number[] = [];
