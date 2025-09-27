@@ -1,7 +1,7 @@
-import { KingdomQuest3D } from '@/components/game/3d/KingdomQuest3D';
+import { KingdomQuest } from '@/components/game/KingdomQuest';
 
 const Index = () => {
-  return <KingdomQuest3D />;
+  return <KingdomQuest />;
 };
 
 export default Index;
